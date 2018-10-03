@@ -11,9 +11,6 @@ use Roots\Sage\Wrapper;
 <div class="hero">
     <div class="container">
         <div class="wrap">
-            
-            <h1>What, why and who</h1>
-
         </div><!-- /wrap -->
     </div><!-- /container -->
 </div><!-- /about-hero -->
