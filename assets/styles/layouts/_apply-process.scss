@@ -1,0 +1,81 @@
+.apply-process {
+    background: #f5f5f5;
+    padding: 100px 0;
+    
+    .step {
+        max-width: 400px;
+        position: relative;
+        margin: 0 auto 30px auto;
+        
+        .step-number {
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            text-align: center;
+            font-family: $headings-font-family;
+            font-size: 150px;
+            font-weight: 800;
+            line-height: 0.71;
+            color: #dddddd;
+        }
+        
+        .step-content {
+            position: relative;
+            z-index: 2;
+            padding: 40px 0 0 0;
+            h3 {
+                padding: 0;
+                margin: 0 0 10px 0;
+                font-size: 36px;
+                font-weight: 800;
+                text-align: center;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 200;
+                text-align: center;
+            }
+        }
+    }
+    
+    .deadline {
+        text-align: center;
+        color: $gray-light;
+        margin: 10px 0 0 0;
+    }
+    
+    .cta {
+        text-align: center;
+    }
+}
+
+
+@media (min-width:$screen-sm-min) {
+
+    .apply-process {
+        .step {
+            margin: 0 auto 50px auto;
+        }
+    }
+
+}
+
+
+@media (min-width:$screen-md-min) {
+    .apply-process {
+        .container {
+            width: 750px;
+        }
+    }
+}
+
+
+@media (min-width:$screen-lg-min) { 
+    
+    .apply-process {
+        .container {
+            width: 750px;
+        }
+    }
+
+}

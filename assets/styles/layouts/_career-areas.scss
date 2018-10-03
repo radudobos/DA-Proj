@@ -1,0 +1,65 @@
+.career-areas {
+    background: #ffffff;
+    padding: 0 0 30px 0;
+    
+    .career-area {
+        @extend .clearfix;
+        margin: 0 0 50px 0;
+        
+        &.last {
+            margin: 0;
+        }
+        
+        .illustration {
+            text-align: center;
+            margin: 0 auto 10px auto;
+            img {
+                max-width: 100%;
+                max-height: 165px;
+            }
+        }
+        
+        .text {
+            padding: 0 0 0 20px;    
+            text-align: justify;
+            h3 {
+                padding: 0;
+                margin: 0 0 15px 0;
+                font-size: 20px;
+                color: #252a33;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            p {
+                color: #777777;
+                font-size: 18px;
+                font-weight: 200;
+            }
+            .cta {
+                margin: 10px 0 0 0;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:$screen-sm-min) {
+    .career-areas {
+        padding: 0 0 10px 0;
+    }
+}
+
+
+@media (min-width:$screen-md-min) {
+    .career-areas {
+        padding: 0 0 30px 0;
+    }
+}
+
+
+@media (min-width:$screen-lg-min) { 
+    .career-areas {
+        padding: 0 0 50px 0;
+    }
+}

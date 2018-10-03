@@ -1,0 +1,21 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+dist
+bower_components
+node_modules
+npm-debug.log
+vendor
+
+.idea/deployment.xml
+
+.idea/modules.xml
+
+.idea/starter-theme.iml
+
+.idea/vcs.xml
+
+.idea/webServers.xml
+
+.idea/workspace.xml
+
+composer.lock

@@ -1,0 +1,227 @@
+.banner {
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    margin: 0;
+    
+    // navbar-brand
+    .navbar-brand {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: auto;
+            .logo {
+                background: url('../images/digital-academy-logo-mobile.png') no-repeat;
+                width: 217px;
+                height: 35px;
+            }
+    }
+    
+    // navbar-toggle
+    .navbar-toggle {
+        border: 0;
+        padding: 0;
+        margin-top: 19px;
+        border-radius: 0;
+        .icon-bar {
+            background: #000000;
+            width: 25px;
+        }
+        .icon-bar + .icon-bar {
+            margin-top: 6px;   
+        }
+    }
+    
+    .navbar-collapse {
+        &.collapsing, 
+        &.in {
+            position: absolute;
+            width: 100%;
+            background: #ffffff;
+        }
+    }
+    
+    .navbar-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    // nav
+    .nav {
+        li {
+            a {
+                color: #252a33;
+            }
+            &.active {
+                a {
+                    background: none;
+                    color: $brand-primary;
+                    &:hover,
+                    &:focus {
+                        background: none;
+                        color: $brand-primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+body.page-template-template-home,
+body.page-template-template-career,
+body.page-template-template-career-new,
+body.page-template-template-internship,
+body.page-template-template-cases,
+body.page-template-template-jobs,
+body.page-template-template-about {
+    .banner {
+        background: none;
+        border: 0;
+        
+        // navbar-brand
+        .navbar-brand {
+            .logo {
+                background: url('../images/digital-academy-logo-white-mobile.png') no-repeat;
+            }
+        }
+        
+        // navbar-toggle
+        .navbar-toggle {
+            .icon-bar {
+                background: #ffffff;
+            }
+        }
+    }
+}
+#menu-item-52
+{    
+    /*margin: 30px 0 0;
+    padding: 15px 40px;
+    a{
+
+    background: 0;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    }*/
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border: 2px solid $brand-primary;
+    margin-top: 40px;
+    a {
+    color: $brand-primary;
+    padding-top: 0; 
+    padding-bottom:0;
+    padding-top: 10px;
+    padding: 10 5 10 5;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    
+    
+}
+
+@media (min-width:$screen-sm-min) { 
+    
+    
+    .banner {
+        
+        // navbar-brand
+        .navbar-brand {
+            padding-top: 18px;
+            padding-bottom: 0;   
+            .logo {
+                background: url('../images/digital-academy-logo.png') no-repeat;
+                width: 298px;
+                height: 48px;
+            } 
+        }
+        
+        .navbar-collapse {
+            &.collapsing, 
+            &.in {
+                position: inherit;
+                width: auto;
+                background: none;
+            }
+        }
+        
+        // nav
+        .nav {
+            font-size: 18px;
+            font-weight: 200;
+            li {
+                a {
+                    color: #252a33;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                &.active {
+                    a {
+                        background: none;
+                        color: $brand-primary;
+                        &:hover,
+                        &:focus {
+                            background: none;
+                            color: $brand-primary;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    
+    body.page-template-template-home,
+    body.page-template-template-career,
+    body.page-template-template-career-new,
+    body.page-template-template-internship,
+    body.page-template-template-cases,
+    body.page-template-template-jobs,
+    body.page-template-template-about
+     {
+        .banner {
+            
+            // navbar-brand
+            .navbar-brand {
+                padding-top: 35px;
+                padding-bottom: 0px;   
+                .logo {
+                    background: url('../images/digital-academy-logo-white.png') no-repeat;
+                    width: 298px;
+                    height: 48px;
+                } 
+            }
+            
+            // nav
+            .nav {
+                li {
+                    a {
+                        color: #ffffff;
+                        padding-top: 50px;
+                        padding-bottom: 0px;
+                    }
+                    &.active {
+                        a {
+                            background: none;
+                            color: $brand-primary;
+                            &:hover,
+                            &:focus {
+                                background: none;
+                                color: $brand-primary;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
+    
+}
+
+
+@media (min-width:$screen-md-min) { }
+
+
+@media (min-width:$screen-lg-min) { }

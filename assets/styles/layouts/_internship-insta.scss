@@ -1,0 +1,53 @@
+#gallery{
+    background-color: white;
+}
+.internship-insta{
+    
+    background-color: #F5F5F5;
+    padding: 30px 0;
+    h1{
+        font-family:  Helvetica;
+        font-size: 52px;
+        color: #FFBA00;
+        text-transform: uppercase;
+    }
+    ul {
+        li {
+            font-size: 16px;
+            font-weight: 200;
+            margin-bottom: 10px;
+        }
+    }
+   
+   
+    .offer {
+
+        
+        padding-bottom: 6%;
+
+        .heading-text {  
+            text-align: center;
+            padding: 30px 0;
+           
+            h1 {
+                font-family:  Helvetica;
+                font-size: auto;
+                color: #CCCCCC;
+                text-transform: uppercase;
+            }
+            h2 {
+                font-family:  Helvetica;
+                font-size: 50px;
+                color: #333333;
+                text-transform: uppercase;
+            }
+    
+        }
+
+        .row {
+            margin-top: 5%;
+        }
+       
+     
+    }
+}

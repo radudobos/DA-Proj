@@ -1,0 +1,34 @@
+.youtube {
+  position: relative;
+  padding-bottom: 56.23%;
+  overflow: hidden;
+  max-width: 100%;
+  img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+    &:hover {
+      -webkit-filter: brightness(75%);
+    }
+  }
+  .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+    cursor: pointer;
+  }
+}

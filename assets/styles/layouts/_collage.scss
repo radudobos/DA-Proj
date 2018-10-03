@@ -1,0 +1,195 @@
+.collage {
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+    .container {
+        width: 100%;    
+        padding: 0;
+    }
+    
+    .collage-item {
+        background: #eeeeee;
+        width: 100%;
+        margin: 0 0 10px 0;
+        
+        &.collage-1 {
+            height: 100px;
+            background: url('../images/collage/collage-1.jpg') no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        &.collage-2 {
+            height: 100px;
+            background: url('../images/collage/collage-7.jpg') no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        &.collage-3 {
+            display: none;
+            height: 210px;
+            background: url('../images/collage/collage-4.jpg') no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        &.collage-4 {
+            height: 100px;
+            background: url('../images/collage/collage-3.jpg') no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        &.collage-5 {
+            height: 100px;
+            background: url('../images/collage/collage-5.jpg') no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        &.collage-6 {
+            height: 100px;
+            background: url('../images/collage/collage-8.jpg') no-repeat;
+            background-position: center center;
+            background-size: cover;
+            a {
+                display: block;
+                background: #252a33;
+                color: #ffffff;
+                text-align: center;
+                line-height: 100px;
+                font-family: $headings-font-family;
+                font-size: 16px;
+                font-weight: 800;
+                text-transform: uppercase;
+                &:hover {
+                    background: $brand-primary;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}
+
+body.page-template-template-jobs .collage {
+    margin: 0 auto 30px auto;
+}
+
+
+@media (min-width:$screen-sm-min) { 
+    .collage {
+        .container {
+            width: 100%;    
+            padding: 0;
+        }
+    
+        .collage-item {
+            background: #eeeeee;
+            width: 100%;
+            margin: 0 0 10px 0;
+            
+            &.collage-1 {
+                height: 150px;
+            }
+            &.collage-2 {
+                height: 150px;
+            }
+            &.collage-3 {
+                display: block;
+                height: 310px;
+            }
+            &.collage-4 {
+                height: 150px;
+            }
+            &.collage-5 {
+                height: 150px;
+            }
+            &.collage-6 {
+                height: 150px;
+                a {
+                    font-size: 24px;
+                }
+            }
+        }
+    
+    }
+    
+    body.page-template-template-jobs .collage {
+        margin: 0 auto 60px auto;
+    }
+}
+
+
+@media (min-width:$screen-md-min) { 
+    .collage {
+        .container {
+            width: 100%;    
+            padding: 0;
+        }
+        .collage-item {
+            &.collage-1 {
+                height: 200px;
+            }
+            &.collage-2 {
+                height: 200px;
+            }
+            &.collage-3 {
+                height: 410px;
+            }
+            &.collage-4 {
+                height: 200px;
+            }
+            &.collage-5 {
+                height: 200px;
+            }
+            &.collage-6 {
+                height: 200px;
+                a {
+                    line-height: 200px;
+                }
+            }
+        }
+    
+    } 
+    
+    body.page-template-template-jobs .collage {
+        margin: 0 auto 80px auto;
+    }
+}
+
+
+@media (min-width:$screen-lg-min) { 
+    .collage {
+        .container {
+            width: auto;
+            max-width: 1440px;    
+            padding: 0;
+        }
+        .collage-item {
+            &.collage-1 {
+                height: 250px;
+            }
+            &.collage-2 {
+                height: 250px;
+            }
+            &.collage-3 {
+                height: 510px;
+            }
+            &.collage-4 {
+                height: 250px;
+            }
+            &.collage-5 {
+                height: 250px;
+            }
+            &.collage-6 {
+                height: 250px;
+                a {
+                    line-height: 250px;
+                }
+            }
+        }
+    
+    }
+    
+    body.page-template-template-jobs .collage {
+        margin: 0 auto 100px auto;
+    }
+}

@@ -1,0 +1,113 @@
+body.events {
+    background: #f5f5f5;
+}
+
+.events-wrap {
+    padding: 30px 0;
+
+    .events-intro {
+        margin: 0 0 30px 0;
+        text-align: center;
+        h1 {
+            color: #252a33;
+            font-weight: 700;  
+            text-transform: uppercase;  
+            margin-top: 0;
+        }
+        p {
+            color: #252a33;
+            font-size: 16px;
+        }
+    }
+    
+    .event {
+        @extend .clearfix;
+        background: #ffffff;
+        padding: 20px;
+        margin: 0 0 10px 0;
+        
+        .event-text {
+            .event-title {
+                font-family: $headings-font-family;
+                font-size: 20px;
+                font-weight: 700;
+                margin: 0 0 5px 0;
+            }
+            .event-info {
+                font-size: 16px;
+                color: #999999;
+            }
+        }
+        .event-cta {
+            margin: 10px 0 0 0;
+        }
+    }
+    
+    
+}
+
+
+@media (min-width:$screen-sm-min) { 
+
+    .events-wrap {    
+        padding: 60px 0;
+        .events-intro {
+            margin: 0 0 50px 0;
+            h1 {
+                font-size: 48px; 
+                margin: 0 0 20px 0;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
+
+
+@media (min-width:$screen-md-min) { 
+    
+    .events-wrap {    
+        padding: 80px 0;
+        .events-intro {
+            h1 {
+                font-size: 52px;
+                font-weight: 800;   
+                margin: 0 0 20px 0;
+            }
+            p {
+                font-size: 22px;
+            }
+        }
+        .event {
+            .event-text {
+                float: left;
+            }
+            .event-cta {
+                float: right;
+                margin-top: 12px;
+            }
+        }
+    }
+      
+}
+
+
+@media (min-width:$screen-lg-min) { 
+    
+    .events-wrap {    
+        padding: 100px 0;
+        .events-intro {
+            h1 {
+                font-size: 72px;
+                font-weight: 800;   
+                margin: 0 0 20px 0;
+            }
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+
+}

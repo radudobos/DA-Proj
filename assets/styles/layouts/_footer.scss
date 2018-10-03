@@ -1,0 +1,136 @@
+.footer {
+    background: #252a33;
+    color: #bfc1c5;
+    font-size: 16px;
+    
+    .footer-signup {
+        padding: 30px 0;
+        text-align: center;
+        border-bottom: 1px solid lighten( #252a33, 5% );
+        
+        h3 {
+            color: #ffffff;
+            padding: 0;
+            margin: 0 0 50px 0;
+        }
+    }
+    
+    .footer-wrap {
+        padding: 30px 0;
+        
+        .footer-logo {
+            background: url('../images/digital-academy-logo-white.png') no-repeat;
+            width: 298px;
+            height: 48px;
+            margin: 0 auto;
+        }
+        
+        .powered-by {
+            font-size: 18px;
+            font-weight: 200;
+            color: lighten( #252a33, 25% );
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        ul.logos {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            li {
+                display: inline-block;
+                margin: 0 15px;
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;
+                }
+            }
+        }
+        
+        .footer-contact {
+            font-size: 18px;
+            font-weight: 200;
+            color: lighten( #252a33, 25% );
+            text-align: center;
+            margin: 30px 0 0 0;
+            padding: 30px 0 0 0;
+            border-top: 1px solid lighten( #252a33, 7% );
+            .footer-email {
+                a {
+                    color: lighten( #252a33, 25% );
+                }
+            }
+            .footer-address {
+                margin: 10px 0 0 0;
+            }
+        }
+        
+        
+        h3 {
+            color: lighten( #252a33, 20% );
+            font-weight: normal;
+            font-size: 16px;
+            text-transform: uppercase;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+        
+        a {
+            color: #ffffff;
+            &:hover {
+                color: $brand-primary;
+            }
+        }
+        
+        // Widget menu
+        ul.menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                padding: 0;
+                margin: 0 0 5px 0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:$screen-sm-min) {
+    .footer {
+        .footer-signup {
+            padding: 50px 0;
+        }
+        .footer-wrap {
+            padding: 60px 0;
+        }
+    }
+}
+
+
+@media (min-width:$screen-md-min) { 
+    .footer {
+        .footer-signup {
+            padding: 60px 0;
+        }
+        .footer-wrap {
+            padding: 80px 0;
+        }
+    }
+}
+
+
+@media (min-width:$screen-lg-min) { 
+    .footer {
+        .footer-signup {
+            padding: 60px 0;
+        }
+        .footer-wrap {
+            padding: 80px 0;
+        }
+    }
+}

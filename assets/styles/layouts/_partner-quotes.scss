@@ -1,0 +1,59 @@
+.partner-quotes {
+    padding: 0 0 100px 0;
+    
+    
+    .partner-quote {
+        
+        .quote-image {
+            text-align: center;
+            margin: 0 0 10px 0;
+        }
+        
+        .quote-author {
+            margin: 0 0 15px 0;
+            text-align: center;
+            .name {
+                font-size: 18px;
+                margin: 0 0 5px 0;
+            }
+            .title {
+                font-size: 14px;
+                color: #666666;
+            }
+        }
+        
+        .quote {
+            position: relative;
+            font-size: 18px;
+            font-style: italic;
+            
+            .quote-mark {
+                background: url('../images/quote-mark.png') no-repeat;
+                position: absolute;
+                z-index: -1;
+                top: -20px;
+                left: -10px;
+                width: 68px;
+                height: 55px;
+            }
+        }
+        
+    }
+}
+
+
+
+@media (min-width:$screen-sm-min) { 
+
+}
+
+
+@media (min-width:$screen-md-min) { 
+    
+}
+
+
+@media (min-width:$screen-lg-min) { 
+
+    
+}
