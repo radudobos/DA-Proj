@@ -12,7 +12,7 @@ use Roots\Sage\Wrapper;
     <div class="container">
         <div class="wrap">
             
-            <h1>What, why and who</h1>
+            <h1>What, why </h1>
 
         </div><!-- /wrap -->
     </div><!-- /container -->
