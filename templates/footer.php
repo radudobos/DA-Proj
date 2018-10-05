@@ -33,7 +33,7 @@
             </ul>
             <div class="footer-contact">
             <ul class="logos">
-                <li><a href=''>Facebook</a></li> 
+                <li><a href='' class='rounded-circle'><img src="<?php echo get_template_directory_uri(); ?>/dist/images/facebook-f-brands.svg" alt="Facebook Digital Academy Aarhus"></a></li> 
                 <li><a href="https://boligportal.dk" target="_blank">Instagram</a></li> 
                 <li> <a href="">Linkedin</a> </li> 
             </ul>

@@ -1,6 +1,6 @@
 .career-areas {
     background: #ffffff;
-    padding: 0 0 30px 0;
+    padding: 80px 0 80px 0; 
     
     .career-area {
         @extend .clearfix;
@@ -21,7 +21,7 @@
         
         .text {
             padding: 0 0 0 20px;    
-            text-align: justify;
+            text-align: center;
             h3 {
                 padding: 0;
                 margin: 0 0 15px 0;
@@ -34,9 +34,19 @@
                 color: #777777;
                 font-size: 18px;
                 font-weight: 200;
+                
             }
             .cta {
+                
                 margin: 10px 0 0 0;
+                padding: 25px 8px 25px 8px;
+
+                a{
+                    color:#FFBA00 !important;
+                    background-color: transparent;
+                    border-color:#FFBA00 !important;
+                }
+            
             }
         }
     }
@@ -46,20 +56,20 @@
 
 @media (min-width:$screen-sm-min) {
     .career-areas {
-        padding: 0 0 10px 0;
+        padding: 30px 0 30px;
     }
 }
 
 
 @media (min-width:$screen-md-min) {
     .career-areas {
-        padding: 0 0 30px 0;
+        padding: 50px 0 50px;
     }
 }
 
 
 @media (min-width:$screen-lg-min) { 
     .career-areas {
-        padding: 0 0 50px 0;
+        padding: 80px 0 80px;
     }
 }

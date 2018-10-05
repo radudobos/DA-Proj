@@ -9,7 +9,7 @@ use Roots\Sage\Wrapper;
 ?>
 
 
-<div class="hero">
+<div class="hero darken-overlay">
     <div class="container">
         
         <div class="wrap">
