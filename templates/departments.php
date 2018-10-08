@@ -9,7 +9,7 @@
                 <img class='responsive'src="<?php echo get_template_directory_uri(); ?>/dist/images/online-marketing.jpg" alt="">
             </div>
             <div class='col-sm-6 text'>
-                <h3>Online Marketing</h3>
+                <h3>Digital Marketing</h3>
                 <p>
                     Being a part of the Digital Marketing Department will 
                     give you hands-on experience within SEO, Google Analytics, 
