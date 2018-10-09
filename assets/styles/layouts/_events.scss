@@ -45,6 +45,22 @@ body.events {
     
     
 }
+.event-cards {
+    h3 {
+        padding-top: 30px;
+    }
+    h4 {
+        margin-bottom: 20px;
+    }
+    .btn{
+        border: 1px solid;
+        margin-bottom: 50px;
+    }
+    .col-sm-4 .col-sm-12 {
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    }
+    
+}
 
 
 @media (min-width:$screen-sm-min) { 
@@ -62,6 +78,7 @@ body.events {
             }
         }
     }
+   
     
 }
 

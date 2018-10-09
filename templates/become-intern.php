@@ -9,7 +9,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/images/digital-academy-internship.png" class="img-responsive turn" alt="Icon - Internship" />
             </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-6" id="text">
                <!-- <p>We’re looking for the best digital talents out there who want to develop themselves and our business’. We’re looking for the next digital rockstars who:</p> -->
                 <ul>
                     <li>Starting on 7th of January and lasting for approx. 4 months</li>
@@ -21,8 +21,7 @@
                         free lunch and snacks
                     </li>
                 </ul>
-                <p class='deadline'>Deadline: 15.10.2018</p>
-               <p>Come and join us!</p> 
+                <p class='deadline bold'>Deadline: 28.10.2018</p>
             </div>
                 
           

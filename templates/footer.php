@@ -32,10 +32,16 @@
                 <li><a href="http://northmedia.dk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/northmedia-logo-footer.png" alt="North Media" /></a></li> 
             </ul>
             <div class="footer-contact">
-            <ul class="logos">
-                <li><a href=''>Facebook</a></li> 
-                <li><a href="https://boligportal.dk" target="_blank">Instagram</a></li> 
-                <li> <a href="">Linkedin</a> </li> 
+            <ul class="logos media">
+                <li>
+                   <a href="https://www.facebook.com/DigitalAcademyInternship/" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/fb.png" alt="Facebook Digital Academy Aarhus"></a> 
+                </li> 
+                <li>
+                    <a href="https://www.instagram.com/the_digital_academy_internship/" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/ig.png" alt="Instagram Digital Academy Aarhus"></a> 
+                </li> 
+                <li> 
+                    <a href="https://www.linkedin.com/company/the-digital-academy-program" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/lin.png" alt="Linkedin Digital Academy Aarhus"></a> 
+                </li> 
             </ul>
                 <div class="footer-email"><a href="mailto:info@digitalacademy.dk">info@digitalacademy.dk</a></div>
                 <div class="footer-address">Paludan-Müllers Vej 40B, 8200 Aarhus N, Denmark</div>
