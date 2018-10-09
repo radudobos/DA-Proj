@@ -1,7 +1,7 @@
 <div class="intro work">
     <div class="container">
         
-        <h2>What you’ll be working on:</h2>
+        <h2>What you will be working on:</h2>
         <h4 class ='text-center'>From day one, you will be assigned to a specific department within one of the companies matching your profile and motivations.</h4>
     <!-- Marketing -->
         <div class="row department">

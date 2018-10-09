@@ -18,7 +18,7 @@ use Roots\Sage\Wrapper;
             <p>With an internship tailored for digital minds</p>
             
             <div class="cta">
-                <a href="#cont" class="btn btn-default btn-round btn-lg">Learn more</a>
+                <a href="#cont" class="btn btn-default btn-round btn-lg" id="cl">Learn more</a>
             </div>
             
         </div><!-- /wrap -->

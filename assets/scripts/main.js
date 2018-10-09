@@ -48,6 +48,14 @@
                       }
                     }
 
+                    //Scroll smooth
+                    $('#cl').click(function(){
+                        $('html, body').animate({
+                            scrollTop: $( $(this).attr('href') ).offset().top
+                        }, 500);
+                        return false;
+                    });
+
                 /** Replace youtube embed with thumbnail **/
                 $(".youtube").each(function() {
 
