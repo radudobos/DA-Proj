@@ -167,7 +167,14 @@ ul.contact-info {
 }
 
 
-
+@media (max-width:$screen-xs-max){
+    .about-info .about-text {
+        color: #fff;
+        font-family: Nunito;
+        text-align: center;
+        margin: 0 0 10px !important;
+    }
+}
 @media (min-width:$screen-sm-min) {
 
     .about-info {

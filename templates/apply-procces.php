@@ -26,7 +26,7 @@
         </div>
         
         <div class="deadline">
-            Application deadline 15th of October
+            Application deadline 28th of October
         </div>
         
     </div><!-- /container -->

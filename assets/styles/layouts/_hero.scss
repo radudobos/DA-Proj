@@ -176,7 +176,21 @@
     }
 }
 
-
+@media (max-width:$screen-xs-max){
+    .hero3 .wrap h1 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+    .about-info .about-text {
+        color: #fff;
+        font-family: Nunito;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+}
 
 @media (min-width:$screen-sm-min) { 
 

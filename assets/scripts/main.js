@@ -30,10 +30,24 @@
                     slidesToShow: 1,
                     adaptiveHeight: true
                   });
+                  
                   $( document ).ready(function() {
                     $('.no-fouc').removeClass('no-fouc');
                     });
-                  
+                    
+
+                    window.onscroll = function() {myFunction()};
+
+                    var header = document.getElementById("navi");
+    
+                    function myFunction() {
+                      if (window.pageYOffset > 500) {
+                        header.classList.add("sticky");
+                      } else {
+                        header.classList.remove("sticky");
+                      }
+                    }
+
                 /** Replace youtube embed with thumbnail **/
                 $(".youtube").each(function() {
 

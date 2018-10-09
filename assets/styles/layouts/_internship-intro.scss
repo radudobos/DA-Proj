@@ -32,7 +32,7 @@
         margin-bottom: 30px;
         li {
             font-size: 22px;
-            height: 70px;
+            height: auto;
             line-height: 30px;
             font-weight: normal;
             margin-bottom: 20px;
@@ -58,23 +58,34 @@
 }
 
 
-@media (min-width:$screen-sm-min) {
+@media (max-width: $screen-xs-max) {
+
+    
     .internship-intro {  
         padding: 60px 0;        
         h2 {
-            font-size: 52px;
+            font-size: 20px;
             margin: 0 0 20px 0;
         }
-        p {
-            font-size: 20px;
+        h3{
+            font-size:15px;
         }
-        ul {
-            li {
-                font-size: 20px;
-            }
+        p {
+            font-size: 14px;
+        }
+        .deadline{
+            font-size: 14px;
         }
         .cta {
             margin: 20px 0 0 0;
+        }
+        ul {
+            li {
+                font-size: 14px;
+                height: auto;
+                line-height: 17px;
+                font-weight: 400;
+            }
         }
     }
 }
@@ -85,15 +96,19 @@
         padding: 70px 0;
                 
         h2 {
-            font-size: 62px;
+            font-size: 32px;
             margin: 0 0 20px 0;
         }
+        h3{
+            font-size:20px;
+        }
         p {
-            font-size: 20px;
+            font-size: 14px;
         }
         .cta {
             margin: 20px 0 0 0;
         }
+      
     }
 }
 
@@ -112,6 +127,10 @@
         }
         .cta {
             margin: 20px 0 0 0;
+        }
+        .internship-intro ul li {
+            font-size: 14px;
+            margin-bottom: 15px;
         }
     }
 

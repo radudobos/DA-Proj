@@ -61,3 +61,17 @@
         object-fit: cover;
     }
 }
+
+@media (max-width:$screen-xs-max) { 
+    .headline {
+        h1 {
+            font-size: 35px;
+        }
+    }
+    .testimonials {
+        blockquote {
+            font-size: 14px;
+        }
+        
+    }
+}

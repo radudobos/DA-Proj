@@ -34,13 +34,13 @@
             <div class="footer-contact">
             <ul class="logos media">
                 <li>
-                   <a href="https://www.facebook.com/DigitalAcademyInternship/" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/facebook_social_media.png" alt="Facebook Digital Academy Aarhus"></a> 
+                   <a href="https://www.facebook.com/DigitalAcademyInternship/" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/fb.png" alt="Facebook Digital Academy Aarhus"></a> 
                 </li> 
                 <li>
-                    <a href="https://www.instagram.com/the_digital_academy_internship/" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/instagram_social_media.png" alt="Instagram Digital Academy Aarhus"></a> 
+                    <a href="https://www.instagram.com/the_digital_academy_internship/" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/ig.png" alt="Instagram Digital Academy Aarhus"></a> 
                 </li> 
                 <li> 
-                    <a href="https://www.linkedin.com/company/the-digital-academy-program" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/in_social_media.png" alt="Linkedin Digital Academy Aarhus"></a> 
+                    <a href="https://www.linkedin.com/company/the-digital-academy-program" target='_blank'><img class='social' src="<?php echo get_template_directory_uri(); ?>/dist/images/lin.png" alt="Linkedin Digital Academy Aarhus"></a> 
                 </li> 
             </ul>
                 <div class="footer-email"><a href="mailto:info@digitalacademy.dk">info@digitalacademy.dk</a></div>

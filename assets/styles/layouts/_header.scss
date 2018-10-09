@@ -1,12 +1,13 @@
 
+
+
+  
+    // navbar-bran
 .banner {
     background: #ffffff;
     border-bottom: 1px solid #dddddd;
     margin: 0;
    
-    
-    
-    // navbar-brand
     .navbar-brand {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -90,7 +91,7 @@ body.page-template-template-about {
     .banner {
         background: none;
         border: 0;
-        
+       
         // navbar-brand
         .navbar-brand {
             .logo {
@@ -107,6 +108,13 @@ body.page-template-template-about {
     }
 }
 
+@media (max-width:$screen-xs-max){
+    .banner {
+        top: 0;
+        position: sticky;
+        background: rgba(0,0,0,0.5) !important;
+    }
+}
 
 @media (min-width:$screen-sm-min) { 
     #menu-item-52
@@ -128,6 +136,7 @@ body.page-template-template-about {
     
     .banner {
        
+        
         
 
         // navbar-brand
@@ -246,6 +255,21 @@ body.page-template-template-about {
             }
     }
    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3) !important;
+        transition:  2s ease;
+        .navbar-header{
+            display: none;
+        }
+        .nav.navbar-nav.navbar-right{
+            margin-top: -30px;
+            margin-bottom: 10px;
+        }
+    
+    }
  }
 
 
@@ -265,5 +289,21 @@ body.page-template-template-about {
                 padding-top: 10px;
                 padding: 8px 25px;
             }
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3) !important;
+        transition:  2s ease;
+        .navbar-header{
+            display: none;
+        }
+        .nav.navbar-nav.navbar-right{
+            margin-top: -30px;
+            margin-bottom: 10px;
+        }
+    
     }
  }
