@@ -28,7 +28,7 @@
             <ul class="logos">
                 <li><a href="https://leadsupply.dk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/leadsupply-logo-footer.png" alt="Lead Supply" /></a></li> 
                 <li><a href="https://boligportal.dk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/boligportal-logo-footer.png" alt="BoligPortal" /></a></li> 
-                <li><img src="<?php echo get_template_directory_uri(); ?>/dist/images/letloop-logo-footer.png" alt="Letloop" /></li> 
+                <li><img src="<?php echo get_template_directory_uri(); ?>/dist/images/FINAL.png" alt="Letloop" /></li> 
                 <li><a href="http://northmedia.dk" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/northmedia-logo-footer.png" alt="North Media" /></a></li> 
             </ul>
             <div class="footer-contact">

@@ -30,7 +30,7 @@
                     <cite> Radu, Web Developer BoligPortal</cite> 
                 </div>
                 <div class='col-sm-4'>
-                    <img class='img-circle'src="<?php echo get_template_directory_uri(); ?>/dist/images/radu.jpg" alt="">
+                    <img class='img-circle'src="<?php echo get_template_directory_uri(); ?>/dist/images/raduu.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                     <cite> Anastasiya, UX-Designer LeadSupply</cite> 
                 </div>
                 <div class='col-sm-4'>
-                    <img class='img-circle'src="<?php echo get_template_directory_uri(); ?>/dist/images/online-marketing.jpg" alt="">
+                    <img class='img-circle'src="<?php echo get_template_directory_uri(); ?>/dist/images/anastasia.jpg" alt="">
                 </div>
             </div>
          

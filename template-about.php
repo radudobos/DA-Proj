@@ -11,12 +11,9 @@ use Roots\Sage\Wrapper;
 <div class="hero3 darken-overlay">
     <div class="container">
         <div class="wrap">
-<<<<<<< HEAD
-=======
             
             <h1>About Us </h1>
 
->>>>>>> radu
         </div><!-- /wrap -->
     </div><!-- /container -->
 </div><!-- /about-hero -->
